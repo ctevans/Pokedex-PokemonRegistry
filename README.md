@@ -11,11 +11,12 @@ Type a pokemon's name into the search bar, hit the button and then a bunch of se
 
 ![Search Executed](https://i.imgur.com/FAi6mZz.png)
 
-
-
 Select a pokemon from the list and view it's details :) Unfortunately this is a little thinner than I had hoped it would be, was planning to use Nivo and have visualizations of all the stats. https://nivo.rocks/
 
 ![Pokemon Detail Check](https://i.imgur.com/sLS9Gwg.png)
+
+Swagger docs are avaliable at https://localhost:5001/swagger/
+![Swagger Docs](https://i.imgur.com/jPA2CEB.png)
 
 # Installation:
 

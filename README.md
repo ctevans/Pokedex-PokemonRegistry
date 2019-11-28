@@ -105,7 +105,17 @@ Command: npm start
 
 Might need to run this command if you’re getting errors with the front end startup... but hopefully not! 
 
-Command: npm i -g react-scripts
+  Command: npm i -g react-scripts
+
+Or if you get a message saying Axios is missing 
+
+  Command: npm install axios.
+
+Or if you get a message saying Can't resolve 'semantic-ui-react'
+
+  Command: yarn add semantic-ui-react
+ 
+(Fingers crossed nothing else comes up. These are all the messages I encountered during my 4 unique installation attempts.)
 
 *The frontend does assume your backend is running on "http://localhost:5001" But this can be modified if the backend is on a different port in the “streams.js” file.
 

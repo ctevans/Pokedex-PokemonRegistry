@@ -41,7 +41,6 @@ Command: npm install --save redux-thunk
 
 
 
-
 # Startup:
 1: Populate ElasticSearch DB with the test data.
 With elasticsearch DB set up please run these commands:

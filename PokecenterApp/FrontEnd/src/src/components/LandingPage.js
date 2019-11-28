@@ -61,7 +61,17 @@ class LandingPage extends React.Component {
 
         return (
             <div>
-                {focusedPokmemon.name}
+                <h1>
+                    {focusedPokmemon.name} Details:
+                </h1>
+                <div>Base Total Stats: {focusedPokmemon.base_total}</div>
+                <div>Experience Growth: {focusedPokmemon.experience_growth}</div>
+                <div>Hp: {focusedPokmemon.hp}</div>
+                <div>Special Attack: {focusedPokmemon.sp_attack}</div>
+                <div>Special Defense: {focusedPokmemon.sp_defense}</div>
+                <div>Speed: {focusedPokmemon.speed}</div>
+                <div>Type 1: {focusedPokmemon.type1}</div>
+                <div>Type 2: {focusedPokmemon.type2}</div>
             </div>
         )
         // return this.props.pokemonList.map(pokemon => {

@@ -141,3 +141,7 @@ Source:https://www.kaggle.com/rounakbanik/pokemon
 
 # A Few Bugs I Wasn’t Able To Catch In Time
 1: The pip script that would import the CSV file into ElasticSearch unfortunately would put the: “∩╗┐” characters before “attack” which parsed incorrectly in my application and wasn’t read by my system. This ultimately resulted in all attack values being equal to 0 in the system. I tried a few alternatives and ran into a host of other issues and some became very involved so I decided to stick with this one but note the bug.
+
+
+
+# Pokemon is owned by Gamefreak and Nintendo and I in no way shape or form own the pokemon images, pokemon data and this is purely for demonstration purposes!

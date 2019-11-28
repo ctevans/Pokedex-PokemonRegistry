@@ -1,7 +1,7 @@
 # Pokedex-PokemonRegistry
 .net core, elasticsearch and react-redux were used to create a full stack application for searching for pokemon in the pokedex (with the addition of trainer ID to make it many thousands of records)
 
-#Installation:
+# Installation:
 
 I preferred to use CLI for installation of the various packages where possible.
 
@@ -42,7 +42,7 @@ Command: npm install --save redux-thunk
 
 
 
-#Startup:
+# Startup:
 1: Populate ElasticSearch DB with the test data.
 With elasticsearch DB set up please run these commands:
 Path: ElasticSearch/
@@ -71,7 +71,7 @@ But this can be modified if the backend is on a different port in the “streams
 
 Source: https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=en
 
-Choices / Reasoning:
+# Choices / Reasoning:
 1: I chose ElasticSearch over the other options provided as ElasticSearch provided quite extensive documentation on their website ranging from their get started guide to the introduction to their DSL. ElasticSearch also was stated to be built ontop of Lucene and gives a more convenient abstraction through a JSON based REST API, tools like Kibana and a large developer support network when needed. Also ElasticSearch provides the NEST DSL to combine .net and ElasticSearch together that seems to me as being very clean, clear, concise and fun to use.
 Source 1: https://www.elastic.co/guide/en/elasticsearch/reference/current/getting-started-install.html
 Source 2:
@@ -88,11 +88,11 @@ Source 2: https://docs.microsoft.com/en-us/aspnet/core/tutorials/getting-started
 
 
 
-#Data Obtained From
+# Data Obtained From
 The Complete Pokemon Dataset on Kaggle. (Doesn’t have Sword/Shield update however.)
 A few columns were removed from the final CSV file because they were out of scope for this project.
 Source:https://www.kaggle.com/rounakbanik/pokemon
 
 
-#A Few Bugs I Wasn’t Able To Catch In Time
+# A Few Bugs I Wasn’t Able To Catch In Time
 1: The pip script that would import the CSV file into ElasticSearch unfortunately would put the: “∩╗┐” characters before “attack” which parsed incorrectly in my application and wasn’t read by my system. This ultimately resulted in all attack values being equal to 0 in the system. I tried a few alternatives and ran into a host of other issues and some became very involved so I decided to stick with this one but note the bug.

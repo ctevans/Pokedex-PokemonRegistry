@@ -150,6 +150,21 @@ Source:https://www.kaggle.com/rounakbanik/pokemon
 # A Few Bugs I Wasn’t Able To Catch In Time
 1: The pip script that would import the CSV file into ElasticSearch unfortunately would put the: “∩╗┐” characters before “attack” which parsed incorrectly in my application and wasn’t read by my system. This ultimately resulted in all attack values being equal to 0 in the system. I tried a few alternatives and ran into a host of other issues and some became very involved so I decided to stick with this one but note the bug.
 
+2: There is an additional empty item added onto the list that shouldn't be. 
 
+# A Few Things I Would Like to Add In The Future:
+1: Unit Testing. Unfortunately things got very hairy with some of the errors. Unit testing however is a massively high priority to me but due to the nature of learning elasticsearch from the ground up, relearning and expanding my .netcore skillset and making everything smooth this did fall off. Something I'd never ever ever do given the choice. But this week was extremely tight on time for me ... :( 
+
+Likewise integration testing and E2E testing falls under this umbrella as well.
+
+2: Much better detail screen for the pokemon stats. I was looking at using the Nivo library that I've used extensively in past work for that. https://nivo.rocks/
+
+3: Spinner during the API call on the search bar.
+
+4: Actual images of the pokemon on the side in large for the detail screen, small sprites for the search list. 
+
+5: Repository pattern implemented for the elasticsearch DB.
+
+6: All of the additional features listed in the email.
 
 # Pokemon is owned by Gamefreak and Nintendo and I in no way shape or form own the pokemon images, pokemon data and this is purely for demonstration purposes!

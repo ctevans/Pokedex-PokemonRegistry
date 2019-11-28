@@ -7,7 +7,15 @@
 
 Type a pokemon's name into the search bar, hit the button and then a bunch of search results should come up!
 
-Select a pokemon from the list and view it's details :)
+![Landing Page](https://i.imgur.com/Ivkq68Y.png)
+
+![Search Executed](https://i.imgur.com/FAi6mZz.png)
+
+
+
+Select a pokemon from the list and view it's details :) Unfortunately this is a little thinner than I had hoped it would be, was planning to use Nivo and have visualizations of all the stats. https://nivo.rocks/
+
+![Pokemon Detail Check](https://i.imgur.com/sLS9Gwg.png)
 
 # Installation:
 

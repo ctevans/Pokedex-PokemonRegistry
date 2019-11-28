@@ -70,17 +70,19 @@ Command: npm install --save redux-thunk
 
 # Startup:
 
-1: Populate ElasticSearch DB with the test data.
+1: Populate ElasticSearch DB with the test data. 
+
+1: Elasticsearch.bat will need to be running an instance of the elasticsearch server for the data to be loaded in.
 
 With elasticsearch DB set up please run these commands:
 
 Path: ElasticSearch/
 
-Command 1: pip install elasticsearch-loader
+Command 2: pip install elasticsearch-loader
 
 (Pip will need python installed on the machine in general.)
 
-Command 2: elasticsearch_loader --index pokemon --type pokemon csv PokemonData.csv
+Command 3: elasticsearch_loader --index pokemon --type pokemon csv PokemonData.csv
 
 
 2: Starting up the Back End:

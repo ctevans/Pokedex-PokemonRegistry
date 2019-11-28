@@ -3,6 +3,12 @@
 
 ![Horrible Photoshop Mess By Me... TBH](https://i.imgur.com/4Pc9ZXg.png)
 
+# Usage:
+
+Type a pokemon's name into the search bar, hit the button and then a bunch of search results should come up!
+
+Select a pokemon from the list and view it's details :)
+
 # Installation:
 
 I preferred to use CLI for installation of the various packages where possible.

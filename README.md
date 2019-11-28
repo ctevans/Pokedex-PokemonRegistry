@@ -65,12 +65,7 @@ Command: npm install --save redux react-redux
 
 Command: npm install --save redux-thunk
 
-
-4: 
-
-
-
-
+4: Hopefully that's all, when I was trying to install it on another machine these are the only ones that really stuck out as a problem.
 
 
 # Startup:
@@ -92,9 +87,9 @@ Command 2: elasticsearch_loader --index pokemon --type pokemon csv PokemonData.c
 
 Please navigate to the path and then enter the command at path. This will start up the back end.
 
-Path:
+Path: BackEnd/
 
-Command:
+Command:  dotnet run
 
 
 3: Starting up the Front End:
@@ -106,11 +101,13 @@ Path: FrontEnd/src/
 Command: npm start
 
 
-Might need to run this command if you’re getting errors like
+Might need to run this command if you’re getting errors with the front end startup... but hopefully not! 
 
 Command: npm i -g react-scripts
 
-*The frontend does assume your backend is running on "http://localhost:5001" But this can be modified if the backend is on a different port in the “streams.js” file
+*The frontend does assume your backend is running on "http://localhost:5001" But this can be modified if the backend is on a different port in the “streams.js” file.
+
+*The backend does assumme your elasticsearch is running on "http://http://localhost:9200". This can be modified from the appsettings.json file.
 
 4: CORS tools must be activated. I personally mostly use Chrome and I used this tool during the development and testing of this app. Otherwise the Front End API will fail to communicate with the Back End API.
 
